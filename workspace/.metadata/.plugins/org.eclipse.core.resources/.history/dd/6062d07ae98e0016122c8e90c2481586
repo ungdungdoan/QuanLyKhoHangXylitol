@@ -1,0 +1,8 @@
+package model;
+
+public class PHONG_BAN
+{
+	private long ID_PHONG_BAN;
+	private String TEN_PHONG_BAN;
+	private long TRUONG_PHONG_ID;
+}

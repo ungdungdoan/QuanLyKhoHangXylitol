@@ -1,0 +1,20 @@
+package service.data;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+
+public class StudentList implements Serializable
+{
+	private ArrayList<Student> list;
+
+	public ArrayList<Student> getList()
+	{
+		return list;
+	}
+	
+	public StudentList()
+	{
+		this.list=new ArrayList<Student>();
+	}
+	
+}

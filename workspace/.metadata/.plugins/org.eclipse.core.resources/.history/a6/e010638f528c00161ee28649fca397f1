@@ -1,0 +1,6 @@
+package service.data;
+
+public class Student
+{
+
+}

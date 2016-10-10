@@ -1,0 +1,13 @@
+package database_get_data;
+
+import java.util.ArrayList;
+
+import model.SAN_PHAM;
+
+public class DATA_SANPHAM
+{
+	public ArrayList<SAN_PHAM> getAllSanPham()
+	{
+		return new ArrayList<SAN_PHAM>()
+	}
+}

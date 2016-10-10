@@ -1,0 +1,23 @@
+package service.data;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+
+public class StudentList implements Serializable
+{
+	private ArrayList<Student> list;
+
+	public ArrayList<Student> getList()
+	{
+		return list;
+	}
+
+	public StudentList()
+	{
+		this.list = new ArrayList<Student>();
+		this.list.add(new Student("Nguyen Xuan Sang", 12126691, "ngxuansangdl@gmail.com"));
+		this.list.add(new Student("Nguyen Quoc Huy", 12126691, "ngquochuydl@gmail.com"));
+
+	}
+
+}

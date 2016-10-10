@@ -1,0 +1,17 @@
+package model;
+
+import java.sql.Date;
+
+public class SAN_PHAM
+{
+	private long ID_SAN_PHAM;
+	private String TEN_SAN_PHAM;
+	private String SKU_SAN_PHAM;
+	private String MO_TA;
+	private String CONG_TY_SX_ID;
+	private long DON_GIA;
+	private Date NGAY_NHAP_KHO;
+	private Date NGAY_SAN_XUAT;
+	private Date HAN_SU_DUNG;
+
+}

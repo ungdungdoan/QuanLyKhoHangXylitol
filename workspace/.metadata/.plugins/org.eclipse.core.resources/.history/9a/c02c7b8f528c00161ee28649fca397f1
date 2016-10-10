@@ -1,0 +1,51 @@
+package service.data;
+
+import java.io.Serializable;
+
+public class Student implements Serializable
+{
+	private String fullName;
+	private long identity;
+	private String email;
+	@Override
+	public String toString()
+	{
+		return "Student [fullName=" + fullName + ", identity=" + identity + ", email=" + email + "]";
+	}
+	public String getFullName()
+	{
+		return fullName;
+	}
+	public void setFullName(String fullName)
+	{
+		this.fullName = fullName;
+	}
+	public long getIdentity()
+	{
+		return identity;
+	}
+	public void setIdentity(long identity)
+	{
+		this.identity = identity;
+	}
+	public String getEmail()
+	{
+		return email;
+	}
+	public void setEmail(String email)
+	{
+		this.email = email;
+	}
+	public Student(String fullName, long identity, String email)
+	{
+		super();
+		this.fullName = fullName;
+		this.identity = identity;
+		this.email = email;
+	}
+	
+	public Student()
+	{
+		// TODO Auto-generated constructor stub
+	}
+}

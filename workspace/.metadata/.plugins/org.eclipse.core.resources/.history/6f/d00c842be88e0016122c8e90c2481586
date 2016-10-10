@@ -1,0 +1,9 @@
+package model;
+
+public class MAT_HANG
+{
+	private long ID_MAT_HANG;
+	private String TEN_MAT_HANG;
+	private String MA_MAT_HANG;
+	
+}

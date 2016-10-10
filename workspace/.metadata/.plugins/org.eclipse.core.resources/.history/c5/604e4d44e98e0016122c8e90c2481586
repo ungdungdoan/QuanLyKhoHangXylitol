@@ -1,0 +1,17 @@
+package model;
+
+import java.sql.Date;
+
+public class NHAN_VIEN
+{
+	private long ID_NHAN_VIEN;
+	private String TEN_DAY_DU;
+	private String CMND;
+	private Date NAM_SINH;
+	private String QUE_QUAN;
+	private String DIA_CHI_LIEN_HE;
+	private String QUOC_TICH;
+	private long ID_PHONG_BAN;
+	private long LEADER_ID;
+
+}

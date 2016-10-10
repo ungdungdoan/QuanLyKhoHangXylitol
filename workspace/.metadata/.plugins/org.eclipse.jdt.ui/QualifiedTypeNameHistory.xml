@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="pk.test.ITestSoapBindingStub"/>
+<fullyQualifiedTypeName name="pk.test.ITestServiceLocator"/>
+<fullyQualifiedTypeName name="service.implement.StudentImpl"/>
+<fullyQualifiedTypeName name="service.data.Students"/>
+<fullyQualifiedTypeName name="service.implement.StudentImplSoapBindingStub"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="service.implement.StudentImplServiceLocator"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.dom.ArrayNodeListIterator"/>
+<fullyQualifiedTypeName name="service.data.Student"/>
+<fullyQualifiedTypeName name="service.data.StudentList"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="service.model.DatabaseConnect"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="service.model.StudentData"/>
+<fullyQualifiedTypeName name="service.model.Student"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,16 @@
+package service.implementation;
+
+import java.util.ArrayList;
+
+import service.data.Student;
+import service.data.StudentList;
+
+public class StudentServiceImpl
+{
+	public Object[] GetStudents()
+	{
+		StudentList list = new StudentList();
+		Object[] arr = new Object[list.getList().size()];
+		return arr;
+	}
+}

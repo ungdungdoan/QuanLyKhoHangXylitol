@@ -1,0 +1,21 @@
+package db_connect;
+
+import java.sql.Connection;
+
+public class DatabaseConnect
+{
+	private Connection connection;
+	private final String userName = "sa";
+	private final String password = "Culixike1";
+	private final String connectString = "jdbc:sqlserver://localhost:1433;databaseName=KHO_HANG";
+
+	public Connection getConnection()
+	{
+		return connection;
+	}
+	
+	public DatabaseConnect()
+	{
+		// TODO Auto-generated constructor stub
+	}
+}

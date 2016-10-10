@@ -1,0 +1,16 @@
+package database_get_data;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+
+import model.SAN_PHAM;
+
+public class DATA_SANPHAM
+{
+	private Connection connection;
+
+	public ArrayList<SAN_PHAM> getAllSanPham()
+	{
+		return new ArrayList<SAN_PHAM>();
+	}
+}
